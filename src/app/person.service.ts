@@ -5,7 +5,8 @@ import { environment } from "src/environments/environment";
 import { person } from "./person.model";
 @Injectable({providedIn:"root"})
 export class personService{
-    baseUrl = environment.baseUrl;
+    baseUrl = 'https://portfolio1-27f51-default-rtdb.firebaseio.com/'
+    
 
     constructor (private httpClient: HttpClient) {}
     addInfo(newCardInfo: any[]=[]){
