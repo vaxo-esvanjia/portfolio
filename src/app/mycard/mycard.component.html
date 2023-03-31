@@ -1,0 +1,57 @@
+<div class="card-mother" id="card-mother2">
+<div class="card mb-3" style="max-width: 80%;">
+    <div class="row g-0">
+      <div class="col-md-4 img">
+        <img src="assets/ng.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 class="card-title">About Me</h4>
+          <p class="card-text">I am a skilled in Front-end Development with 1 year
+            of experience in creating visually appealing and
+            interactive websites and applications. I am
+            constantly learning and keeping up to date with the
+            latest trends, tools, and techniques in Front-end
+            development. I am fully motivated to improve my
+            abilities and gain experience in Web development.
+            </p>
+
+<div class="about">
+  <div class="skills">
+     <span (click)="showSkills()" class="active-link">Skills</span>
+    <div [style.width]="widthLine" class="line"></div>
+
+</div>
+<div class="skills">
+  <span (click)="showExp()" class="active-">Experience</span>
+  <div [style.width]="widthLine2" class="line"></div>
+</div>
+<div class="skills">
+  <span (click)="showEdu()" class="active-link">Education</span>
+  <div [style.width]="widthLine3" class="line"></div>
+</div>
+
+</div>    
+<div *ngIf="skillsdescription==true" class="skills-description">
+  <h4>Web Development:</h4>
+  <span class="sp">Front-end Web App Development</span>
+  <br>
+  
+</div>
+<div *ngIf="experiencedescription==true" class="experience-description">
+  <h4>Experience</h4>
+  <span class="sp">About 1 year on small individual projects</span>
+</div> 
+<div *ngIf="educationdescription==true"  class="education">
+  <h4>Education :</h4>
+  <ul>
+    <li><span class="sp">High school graduate</span></li>
+    <li><span class="sp">Graduate Front-end course in IT step Georgia</span></li>
+    <li><span class="sp">Study in second year of the Faculty of Economics at Ivane Javakhishvili's Tbilisi State University</span></li>
+  </ul>
+</div>     
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

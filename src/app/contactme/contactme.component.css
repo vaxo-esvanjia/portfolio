@@ -1,0 +1,82 @@
+.contactgrandmother{
+    background-color: rgb(31, 3, 37);
+    padding-bottom: 100px;
+
+}
+.contactmother{
+    padding-top: 100px;
+    box-sizing: border-box;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    color: white;
+
+}
+h1{
+    text-align: center;
+}
+.leftside{
+    
+    flex-basis: 35%;
+    box-sizing: border-box;
+}
+.socmedia a{
+    margin: 20px;
+}
+.gmail,.socmedia,.phone{
+    display: flex;
+    width: 280px;
+    height: 80px;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+.s{
+    margin-left: 0px !important;
+}
+.gmail span,.phone span{
+    margin-left: 20px;
+}
+.downloadbtn, .submit{
+    background-color: rgb(217, 10, 100);
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-top: 40px;
+    width: 150px;
+    font-size: 17px;
+
+}
+.downloadbtn a{
+    color: white !important;
+    text-decoration: none;
+}
+.socmedia svg,.phone svg, .gmail svg{
+    fill: rgb(217, 10, 100);
+}
+.socmedia svg:hover,.phone svg:hover, .gmail svg:hover{
+    transition: 0.4s;
+    width: 35px;
+    fill: rgb(10, 217, 38);
+}
+.rightside{
+    flex-basis: 60%;
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(193, 193, 193);
+    font-size: 17px;
+    text-align: center;
+}
+.copyright span {
+    color: #75dd19;
+}
+.copyright svg{
+    margin-top: -3px;
+}

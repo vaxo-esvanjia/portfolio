@@ -1,0 +1,30 @@
+header{
+    margin-top: 5vh;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-color: rgb(24, 3, 37);
+    color: white;
+    background-image: url("src/assets/x1.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 750px 85vh;
+    padding-left: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    
+    
+}
+h1{
+    font-size: 55px;
+}
+@media screen and (max-width:780px) {
+    header{
+        background-image: none
+    }
+}
+@media screen and (max-width:450px) {
+    h1{
+        font-size: 35px;
+    }
+}

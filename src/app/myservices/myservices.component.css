@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.servicecards{
+    width: 80%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.crd{
+    color: white;
+    margin-top: 80px;
+    background-color: rgb(12, 97, 150);
+}
+.card-body a{
+    text-decoration: none;
+    color: rgb(237, 15, 229);
+    font-size: 14px;
+    
+    
+}
+.card-body a:hover{
+    color: rgb(12, 196, 12);
+    transition: 0.3s;
+}
+.crd:hover{
+    margin-top: 60px;
+    transition: 0.4s;
+    width: 19rem !important;
+}

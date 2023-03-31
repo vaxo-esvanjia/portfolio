@@ -1,0 +1,92 @@
+.crd1{
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 20px;
+    border: none !important;
+    background-image: url('https://preview.colorlib.com/theme/glint/images/hero-bg.jpg');
+}
+.c2{
+    background-image: url('https://preview.colorlib.com/theme/travelix/images/home_slider.jpg.webp');
+}
+.c4{
+    background-image: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+}
+.c3{
+    background-image: url('https://curious-bublanina-37e848.netlify.app/img/cake.webp');
+}
+.c5{
+    background-image: url('https://entiretravel.imgix.net/getmedia/fe3377e7-fb0b-4f55-abf1-f949a90e16a2/switzerland_travel_guide.jpg?auto=format');
+}
+
+.x{
+    margin-top: 350px;
+    
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(106, 255, 126, 0.499), rgba(2, 144, 45, 0.963));   
+}
+p,h5{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+h5{
+    text-align: center;
+    margin: 0 !important;
+}
+.link{
+    margin-top: 100px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crd1:hover .x{
+    margin-top: 0px;
+    transition: 1s;
+
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.myworkscards{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.bt{
+    background:none;
+    border:1ps solid rgb(255, 255, 255);
+    border-radius: 4px;
+    color: white;
+    
+    
+}
+.bt:hover{
+    transition: 0.5s;
+    background-color: rgb(2, 172, 2);
+}
+.but{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
