@@ -23,7 +23,10 @@
 .c6{
     background-image: url("https://t4.ftcdn.net/jpg/03/31/11/65/360_F_331116581_Ca7ehc61DyZspKq1GdSzkV2FkO898AVB.jpg");
 }
-
+.c7{
+    background-image: url('/assets/c7.png');
+    background-size: 100%;
+}
 .x{
     margin-top: 350px;
     
