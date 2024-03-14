@@ -27,6 +27,9 @@
     background-image: url('/assets/c7.png');
     background-size: 100%;
 }
+.c8{
+    background-image: url('https://rickandmortyapi.com/api/character/avatar/1.jpeg');
+}
 .x{
     margin-top: 350px;
     
